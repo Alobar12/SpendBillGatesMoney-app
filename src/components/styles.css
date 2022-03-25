@@ -1,0 +1,38 @@
+.money {
+  background:linear-gradient(#11998e,#38ef7d);
+  padding: 20px;
+  font-size: 30px;
+  position: sticky;
+  top: 0;
+  left: 0px;
+  right: 0px;
+}
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: greenyellow;
+  margin-bottom: 30px;
+}
+button{
+    border-radius: 4px;
+    background: red;
+    width: 90px;
+    height: 50px;
+}
+.productList{
+    background: linear-gradient(#74ebd5,#ACB6E5);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
